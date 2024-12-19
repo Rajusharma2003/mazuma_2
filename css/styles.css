@@ -19561,5 +19561,33 @@ blockquote .text {
     right: 0;
   }
 }
-
 /*# sourceMappingURL=styles.css.map */
+
+
+/* this is for the just bottom in a banner  */
+.circle-text {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  padding: 15px;
+}
+.social-icons a {
+  margin: 0 10px;
+  color: #000;
+  font-size: 24px;
+}
+.social-icons a:hover {
+  color: #007bff;
+}
+
+/* End just bottom section */
+
+
+
