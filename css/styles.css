@@ -19126,7 +19126,7 @@ blockquote .text {
     display: none;
   }
   .card-product:not(.style-3) .list-product-btn .box-icon.style-2 {
-    width: 32px;
+    width: 100px;
   }
   .card-product .list-color-product {
     overflow: hidden;
