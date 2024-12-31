@@ -3068,7 +3068,7 @@ header.header-bg {
 }
 .wrap-slider img {
   width: 100%;
-  height: 100%;
+  height: 120%;
   object-fit: cover;
 }
 .wrap-slider .box-content {
@@ -10077,7 +10077,7 @@ header.header-bg {
   gap: 5px;
 }
 .list-product-btn .box-icon {
-  width: 32px;
+  width: 84px;
   height: 32px;
   min-width: 32px;
   border-radius: 3px;
@@ -16288,7 +16288,7 @@ blockquote .text {
     gap: 6px;
   }
   .list-product-btn .box-icon {
-    width: 42px;
+    width: 85px;
     height: 42px;
   }
   .list-product-btn.column-left {
@@ -18582,7 +18582,7 @@ blockquote .text {
   }
   .slider-effect .content-left {
     position: unset;
-    padding: 40px 0px;
+    padding: 66px 0px;
     text-align: center;
   }
   .slider-effect .img-slider {
@@ -19591,3 +19591,49 @@ blockquote .text {
 
 
 
+/* This is for the whatsapp and calling section */
+/* whatsapp */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .1s all ease-in-out;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+  box-shadow: 0 0 .75rem #18d26e;
+  background-color: #18d26e;
+}
+
+.whatsapp:hover {
+  background-color: white;
+  color: #18d26e;
+}
+
+.call {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 60px;
+  transition: .1s all ease-in-out;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+  background-color: #222222;
+  box-shadow: 0 0 .5rem #eee;
+}
+
+.call:hover {
+  background-color: white;
+  color: #222222;
+}
+/* End whatsapp and calling section */
